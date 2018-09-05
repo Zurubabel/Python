@@ -4,6 +4,8 @@
 mes = 11
 dia = 15
 
+retorno = ""
+
 # Mes - nome; Dia - apelido
 
 # Mês
@@ -52,3 +54,12 @@ dia_28 = "Rola Cansada"
 dia_29 = "só cana"
 dia_30 = "Caganeira"
 dia_31 = "Ku de Mel"
+
+# Decisão de qual nome retornar
+if mes == 1:
+    retorno = jan
+elif mes == 2:
+    retorno = fev
+elif mes == 3:
+    retorno = mar
+
