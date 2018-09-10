@@ -31,3 +31,4 @@ class GNCTest(unittest.TestCase):
 
     def test_retornar_apelido_ao_inserir_dia_do_aniversario_do_usuario(self):
         self.assertEqual(self.gnc.retornar_apelido(1), "Furico")
+        
